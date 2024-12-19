@@ -1,0 +1,123 @@
+/* 导航栏样式 */
+body{
+    background-color: #ffe5d94a;
+}
+nav {
+    background-color: #eadbd8;
+    padding: 10px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* 将列表项分散对齐 */
+}
+
+nav ul li {
+    flex: 1; /* 让每个 li 元素占用相等的空间 */
+    text-align: center; /* 水平居中列表项的文本 */
+}
+
+nav ul li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ba857b5c;
+border-radius: 15px;
+}
+
+/* 基本块样式 */
+.block {
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+}
+.name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 8px;
+}
+.content {
+    display: flex;
+    height: 25px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left-block {
+    width: 100%;
+}
+
+.right-block {
+    width: 35%;
+}
+.left-block marquee {
+    height: 100%;
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #ede0da;
+}
+
+.right-block input[type="text"] {
+    width: 70%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.right-block button {
+
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #eadbd8;
+    color: #000;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+footer .copyright {
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.we{
+    margin-top: 10px;
+}
+.deep{
+    background: radial-gradient(#f3eae9, #cda5a0);
+    border-radius: 15px;
+}
+.right-block button{
+    background: radial-gradient(#f3eae9, #cda5a0);
+    width:70px;
+    height: 30px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.f {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    background: radial-gradient(#f3eae9, #e3b6b1);
+}

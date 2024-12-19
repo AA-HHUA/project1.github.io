@@ -1,0 +1,63 @@
+/* 设置表格的宽度为页面60% */
+#myTable {
+    width: 80%;
+    border: 2px solid black;
+    margin: auto;
+    text-align: center;
+    background-color: #e5d0ce6b;
+    vertical-align: middle;
+}
+
+/* 设置表头背景颜色 */
+#myTable thead tr {
+    background-color: #f3d9d6;
+}
+/* 设置表格单元格的字体大小 */
+#myTable td, #myTable th {
+    font-size: 16px;
+    padding: 10px;
+}
+#myTable td:hover{
+    background-color: white;
+}
+#myTable th:hover{
+    background-color: white;
+}
+    /* 设置按钮的背景颜色 */
+#myTable button {
+
+    background: radial-gradient(#f3eae9, #cda5a0);
+    width:70px;
+    height: 30px;
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+/* 设置表格单元格之间的边框 */
+#myTable td, #myTable th {
+    border: 1px solid #000;
+}
+
+/* 设置“总页数”和“下一页”样式 */#page-info {
+                         padding-left: 70%;
+                         text-align: right;
+                         margin-top: 20px;
+                         /* border-right: 200px solid #000; */
+                     }
+
+#pagination {
+    text-align: right;
+    margin-top: 10px;
+    padding-left: 65%;
+
+}
+#pagination a{
+    width:200px;
+    height: 70px;
+    color: black;
+    background:radial-gradient(#f3eae9, #cda5a0);
+    border-radius: 15px;
+    text-decoration: none;
+}
